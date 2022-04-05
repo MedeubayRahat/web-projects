@@ -1,0 +1,79 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+
+        .purple-bg {
+            background-color: cornflowerblue;
+            width: 90%;
+            height: 600px;
+            margin: auto;
+            border-radius: 25px;
+        }
+
+        .purple-bg_block {
+            margin: 20px;
+        }
+
+        .purple-bg_title-block {
+            padding-top: 10px;
+            margin-bottom: 50px;
+        }
+
+        .submit-form {
+            padding-left: 100px;
+        }
+
+        input {
+            width: 90%;
+            padding-left: 25px;
+            height: 60px;
+            font-size: 14px;
+            border-radius: 50px;
+            background-color: #fff;
+            border: none;
+            margin-bottom: 30px;
+            outline: none;
+        }
+
+        input::placeholder {
+            color: #c4c4c4;
+        }
+
+        .submit-Btn {
+            position: absolute;
+            left:1000px;
+            top: 425px;
+            border-radius: 25px;
+           background-color: cornflowerblue;
+            width: 109px;
+            height: 40px;
+
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="purple-bg">
+        <div class="purple-bg_block">
+            <div class="purple-bg_title-block">
+                <h3 style="text-align: center; font-size: 56px; margin: 0">Заполните данные</h3>
+            </div>
+            <form class="submit-form">
+                <input type="email" id="email" name="email" placeholder="Your email address" autocomplete="off"/><br>
+                <input type="text" id="fname" name="fname" placeholder="Имя" autocomplete="off"> <br>
+                <input type="text" id="lname" name="lname" placeholder="Фамилия" autocomplete="off"><br>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" autocomplete="off" placeholder="Номер телефона"><br>
+                <button class="submit-Btn">Отправить<img src="Без%20названия.jpg" style="border-radius: 100%;width: 15px;height: 15px"></button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

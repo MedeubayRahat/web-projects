@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<style>
+    button{
+        border-radius: 30px;
+
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: aqua;
+    }
+
+    li {
+        float: right;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        background-color: wheat;
+    }
+</style>
+</head>
+<body>
+
+
+
+
+<ul>
+    <li><a href="#text" style="background-color: blue"> Текст</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#support">Support</a></li>
+    <li><a href="#products">Products</a></li>
+    <li><a href="#home">Home</a></li>
+</ul>
+<h2>Lorem ipsum dolor sit<br>
+    amet, consectetur<br>
+    adipiscing elit</h2>
+<p>Lorem ipsum is placeholder text commonly used in<br>
+    the<br>
+    graphic, print, and publishing industries</p>
+
+<button style="background-color: cornflowerblue" > Learn more <img src="Без%20названия.jpg" style="width: 11px;height: 11px; border-radius: 100px"></button>
+
+<!--<li><img src="Без%20названия.jpg"></li>-->
+
+<table style="background-color:white;color:black;padding:20px;">
+    <tr>
+   <td> <img src="Снимок%20экрана%202022-03-12%20142502.png"></td>
+        <td><h4>Главный текст номер 1 <br>Главный текст</h4></td>
+         <p>Под текст номер 2 <br>Под текст</p>
+    </tr>
+</table>
+
+
+
+
+<head>
+    <style>
+        body {
+             /*background-image: url('img.png');background-repeat: no-repeat; background-attachment: fixed;*/
+            /*background-size: cover;*/
+        }
+
+        .container_block {
+            width: 100%;
+            height: 50px;
+            background-color: red;
+            padding-left: 60px;
+        }
+        img {
+            width: 70px;
+            height: 70px;
+        }
+
+    </style>
+</head>
+<body>
+
+<script>
+function myFunction(){
+    var x = document.getElementsByClassName("city");
+    for(var i = 0;i < x.length; i++){
+        x[i].style.display = "none";
+    }
+}</script>
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()"> Click date</button>
+<p id="demo"> </p>
+<aside> <p> dsjkgaehbcjh</p></aside>
+
+<form action="rahat.html">
+    <label for="favcolor">Select your favorite color:</label>
+    <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+
+    <label for="birthday">Birthday:</label>
+    <input type="date" id="birthday" name="birthday">
+    <input type="submit" value="Submit">
+</form>
+
+<canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3; background-color: red">
+    Your browser does not support the HTML canvas tag.</canvas>
+
+<script>
+    var c = document.getElementById("myCanvas");
+    var ctx = c.getContext("2d");
+    ctx.font = "30px Arial";
+    ctx.fillText("Hello World",10,50);
+</script>
+</body>
+
+
+
+
+</html>
